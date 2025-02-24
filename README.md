@@ -1,6 +1,6 @@
 # Aprendizagem de Maquina
 
-Repositório criado para as aulas teóricas e atividades práticas da disciplina.
+Repositório criado para as aulas teóricas e atividades práticas da disciplina. Atividades salvas na Branch Develop
 
 ## Organização do Repositório
 
