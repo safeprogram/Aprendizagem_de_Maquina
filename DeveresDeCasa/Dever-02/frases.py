@@ -1,5 +1,5 @@
 def solicitar_frase():
-    """Função para solicitar uma frase ao usuário e garantir que não seja vazia."""
+    
     while True:
         frase = input("Por favor, insira uma frase: ").strip()
         if frase:  # Verifica se a frase não está vazia
@@ -8,7 +8,7 @@ def solicitar_frase():
             print("A entrada não pode ser vazia. Tente novamente.")
 
 def analisar_frase(frase):
-    """Função para realizar a análise e formatação da frase."""
+    
     # Contagem de caracteres
     total_caracteres = len(frase)
 
@@ -35,7 +35,7 @@ def analisar_frase(frase):
     return total_caracteres, num_palavras, maior_palavra, frase_invertida_caracteres, frase_invertida_palavras, frase_maiuscula, frase_minuscula, tupla_palavras
 
 def exibir_resultados(resultado):
-    """Função para exibir os resultados de forma formatada."""
+
     total_caracteres, num_palavras, maior_palavra, frase_invertida_caracteres, frase_invertida_palavras, frase_maiuscula, frase_minuscula, tupla_palavras = resultado
     
     print("\nResultados da Análise da Frase:")
@@ -49,7 +49,7 @@ def exibir_resultados(resultado):
     print(f"8. Tupla com as palavras da frase: {tupla_palavras}")
 
 def main():
-    """Função principal que integra todas as funcionalidades."""
+
     frase = solicitar_frase()  # Solicita a frase ao usuário
     resultado = analisar_frase(frase)  # Realiza as operações de análise e formatação
     exibir_resultados(resultado)  # Exibe os resultados formatados
